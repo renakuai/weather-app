@@ -1,0 +1,23 @@
+
+.Background {
+  grid-column: 1 / -1;
+}
+
+.Search--wrapper {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+button.Unit {
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+  border: none;
+  height: fit-content;
+}
+
+button.Unit--selected {
+  font-weight: 700;
+  color: #3A28FF;
+}
